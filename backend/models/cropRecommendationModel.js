@@ -29,15 +29,15 @@ const recommendCrop = ({ N, P, K, temperature, humidity, ph, rainfall }) => {
             Math.abs(crop.temperature - temperature) +
             Math.abs(crop.humidity - humidity) +
             Math.abs(crop.ph - ph) +
-            Math.abs(crop.rainfall - rainfall);
+            Math.abs(crop.rainfall - rainfall)
 
         if (diff < minDifference) {
-            minDifference = diff;
-            recommendedCrop = crop.label; // Assuming `label` column contains the crop name
+            minDifference = diff
+            recommendedCrop = crop.label
         }
-    });
+    })
 
-    return recommendedCrop;
-};
+    return recommendedCrop
+}
 
-module.exports = { recommendCrop };
+module.exports = { recommendCrop }
