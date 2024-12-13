@@ -76,8 +76,15 @@ cd frontend
 
 
 ## Output :
+- Home page:
 ![Homepage Snapshot](frontend/public/1.png)
+- getting output:
 ![getting output after filling form](frontend/public/2.png)
+
+
+### To get API documentation, click [Here](https://documenter.getpostman.com/view/33322053/2sAYHwJjgs)
+
+
 
 
 ## Feedback
@@ -88,7 +95,4 @@ cd frontend
 
 
 
-
-
-### To get API documentation, click [Here](https://documenter.getpostman.com/view/33322053/2sAYHwJjgs)
 
