@@ -29,11 +29,59 @@
 
 ---
 
-## 📁 Project Structure
-
-### Backend (`server/`):
+## **Steps to Run**:  
 
 
+#### 1. Clone the repository  
+```bash  
+git clone https://github.com/yogendrabaskota/AgroAdvisor.git  
+```
+
+## To Run Backend Server
+
+```https 
+cd backend
+```
+
+- To install required packages
+```https 
+  npm install
+``` 
+- To run server
+```https 
+  npm start
+``` 
+
+## To Run Frontend
+
+```https 
+cd frontend
+``` 
+- To install required packages 
+
+```https 
+  npm install
+``` 
+
+- To run project
+
+```https 
+  npm run dev
+``` 
+
+### Note:
+- Don't forget to update the API path in the frontend if needed.
+
+### To get API documentation, click [Here](https://documenter.getpostman.com/view/33322053/2sAYBbeUTa)
+
+
+## Output :
+![Homepage Snapshot](frontend/public/1.png)
+![getting output after filling form](frontend/public/2.png)
+
+
+## Feedback
+  If you have any feedback, please reach out to me at yogendrabaskota18@gmail.com  
 
 
 
