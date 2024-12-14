@@ -72,7 +72,6 @@ cd frontend
 ### Note:
 - Don't forget to update the API path in the frontend if needed.
 
-### To get API documentation, click [Here](https://documenter.getpostman.com/view/33322053/2sAYBbeUTa)
 
 
 ## Output :
