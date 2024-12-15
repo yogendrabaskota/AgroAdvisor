@@ -25,7 +25,11 @@ const CropForm = () => {
         setLoading(true);
         try {
             const response = await axios.post('https://agroadvisor-digi.onrender.com/api/crops/recommend', formData);
-            setResult(response.data.crop);
+          //  console.log("response : ",response)
+            setResult(response.data.message);
+           
+
+           // console.log("this ",response.data)
         } catch (error) {
             console.error('Error recommending crop:', error);
         } finally {
@@ -72,7 +76,7 @@ const CropForm = () => {
             </form>
             {result && (
                 <div className="mt-6 p-4 bg-green-100 border border-green-400 text-green-700 rounded-md text-center shadow-md">
-                    <strong className="text-lg">Recommended Crop:</strong>
+                    <strong className="text-lg">Best crop for this condition is:</strong>
                     <p className="text-xl font-bold mt-2">{result}</p>
                 </div>
             )}

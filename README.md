@@ -2,6 +2,8 @@
 
 **AgroAdvisor** is a machine learning-based crop recommendation system that suggests the best crops to grow based on soil properties and environmental conditions. This project leverages a user-friendly interface and a robust backend to help farmers make informed decisions.
 
+### Click [Here](https://agro-advisor-kappa.vercel.app/) to visit this site.
+
 ---
 
 ## 🌟 Features
@@ -83,6 +85,9 @@ cd frontend
 
 ### To get API documentation, click [Here](https://documenter.getpostman.com/view/33322053/2sAYHwJjgs)
 
+### Backend is live [Here](https://agroadvisor-digi.onrender.com/)
+
+### Frontend is live [Here](https://agro-advisor-kappa.vercel.app/)
 
 
 

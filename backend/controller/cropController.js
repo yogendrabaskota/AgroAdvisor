@@ -13,7 +13,7 @@ exports.cropController = async(req, res) => {
     try {
         const recommendedCrop = recommendCrop({ N, P, K, temperature, humidity, ph, rainfall });
         res.status(200).json({ 
-            message : `Best crop for this condition is : ${recommendedCrop}`
+            message : ` ${recommendedCrop}`
          })
 
     } catch (error) {
