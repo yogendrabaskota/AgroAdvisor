@@ -5,7 +5,7 @@ const csv = require('csv-parser');
 // Load CSV Data
 let cropsData = [];
 
-const csvFilePath = path.join(__dirname, '../data/Crop_Recommendation_model.csv');
+const csvFilePath = path.join(__dirname, '../data/crop_Recommendation_model.csv');
 
 fs.createReadStream(csvFilePath)
     .pipe(csv())
