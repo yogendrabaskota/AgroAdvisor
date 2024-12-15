@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 
 app.use('/api/crops', cropRoutes);
 
-app.post("/",(req,res)=>{
+app.get("/",(req,res)=>{
     res.status(200).json({
         message : "I am here"
     })
